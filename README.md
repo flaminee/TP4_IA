@@ -14,7 +14,7 @@ pas grand-chose ?** </br>
 
 lorsque l'itemsets est égale à 1 item, cela ne nous apprend pas grand-chose, excepté que la carte est souvent jouée
 
-*Avez-vous trouvé des itemsets fréquents particulièrement intéressants ?* </br>
+**Avez-vous trouvé des itemsets fréquents particulièrement intéressants ?** </br>
 
 Exemple de combinaison qui se retrouve dans 19 parties : 
 
