@@ -11,31 +11,44 @@ public class TypeOfCard {
 
 
     /**
-     * associated an index to each type of card present in the file
+     * @return HashMap associated an index to each type of card present
      * */
     public static HashMap getTypeOfCard(String file) throws IOException {
 
         try(BufferedReader br = new BufferedReader(new FileReader(file))) {
+
             String line;
+
+            //List of all cards
             ArrayList<String> cards = new ArrayList<>();
+
             while ((line = br.readLine()) != null) {
+
                 String[] splited = line.split(" ");
 
                 for (String s : splited) {
+
                     if (s.startsWith("O") || s.startsWith("M")) {
 
+                        //add card to list
                         cards.add(s.substring(1));
                     }
                 }
             }
+
+            //remove duplicates
             List<String> typeOfCard = new ArrayList<>(new HashSet<>(cards));
 
+            //map associated an index to each type of card present
             HashMap map = new HashMap<>();
 
             for (int i = 0; i < typeOfCard.size(); i++) {
+
+                //add a card with his index
                 map.put(i + 1, typeOfCard.get(i));
             }
 
+            //return map
             return map;
         }
         catch (IOException e) {
@@ -45,11 +58,17 @@ public class TypeOfCard {
         return null;
     }
 
-    public static Integer getKey(HashMap<Integer, String> map, String value)
+    /**
+     *
+     * @param map
+     * @param card
+     * @return the key corresponding to the card
+     */
+    public static Integer getKey(HashMap<Integer, String> map, String card)
     {
         for (HashMap.Entry<Integer, String> entry: map.entrySet())
         {
-            if (value.equals(entry.getValue())) {
+            if (card.equals(entry.getValue())) {
                 return entry.getKey();
             }
         }
