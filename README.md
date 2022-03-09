@@ -22,8 +22,8 @@ Exemple de combinaison qui se retrouve dans 19 parties :
 
 ![img_1.png](img_1.png)
 
-on a deux cartes de type mignon, BlackwingCorruptor et NorthshireCleric, cette dernière fait gagner une nouvelle carte si un minion est soigné </br>
-On a deux autres cartes, une carte de soin et une deuxième carte qui soigne seulement les minions 
+on a deux cartes de type serviteur, BlackwingCorruptor et NorthshireCleric, cette dernière fait gagner une nouvelle carte si un serviteur est soigné </br>
+On a deux autres cartes, une carte de soin et une deuxième carte qui soigne seulement les serviteurs 
 
 On comprend pourquoi la combinaison de ces 4 cartes revient régulièrement pendant les différente parties
 
