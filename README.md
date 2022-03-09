@@ -32,9 +32,9 @@ lorsque l'itemsets est égale à 1 item, cela ne nous apprend pas grand-chose, e
 
 Exemple de combinaison qui se retrouve dans 19 parties : 
 
-![img.png](img.png)
+![](https://codimd.math.cnrs.fr/uploads/upload_11b0202ced94c8ebf7a0928423eb1e3f.png)
 
-![img_1.png](img_1.png)
+![](https://codimd.math.cnrs.fr/uploads/upload_50fc9266727b6d3a3e36ad8697e7225a.png)
 
 on a deux cartes de type serviteur, BlackwingCorruptor et NorthshireCleric, cette dernière fait gagner une nouvelle carte si un serviteur est soigné </br>
 On a deux autres cartes, une carte de soin et une deuxième carte qui soigne seulement les serviteurs 
