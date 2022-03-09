@@ -1,6 +1,6 @@
 # TP4_IA
 
-####Transformation appliquées aux données
+###Transformation appliquées aux données
 
 la transformation des données de fait en plusieurs étape :
     
@@ -14,7 +14,7 @@ la transformation des données de fait en plusieurs étape :
     (les numéros seront remplacés par les noms des cartes). La traduction se trouve dans un dernier fichier nommé readbleoutputfile.
 
 
-####Analyse des résultats
+###Analyse des résultats
 
 **Que représente un itemset fréquent fermé ici ? pourquoi est-ce
 potentiellement intéressant ?** </br>
